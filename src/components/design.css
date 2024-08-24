@@ -1,0 +1,75 @@
+.logo {
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    padding-left: 55px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    color: #ee4a91;
+}
+
+/* .end {
+    padding-right: 55px;
+} */
+.btn {
+    height: 30px;
+    width: 70px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bold;
+    box-sizing: border-box;
+    transition: background-color 0.1s;
+    padding: 0;
+}
+
+.btn:hover {
+    background-color: #e7ecf1;
+    padding: 3px;
+    height: 38px;
+    width: 80px;
+    transition: 0.1s;
+}
+
+.signbtn {
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 32px;
+    width: 74px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ee2b7f;
+    font-weight: bold;
+    box-sizing: border-box;
+    /* transition: background-color 0.1s, padding 0.1s; */
+    padding: 0;
+    transition: 0.2s;
+}
+
+.signbtn:hover {
+    background-color: #d40b62;
+    padding: 2px;
+    height: 38px;
+    width: 80px;
+    transition: 0.1s;
+}
