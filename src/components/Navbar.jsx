@@ -17,10 +17,9 @@ const Navbar = () => {
                     <img className="navbar-lang" src={lang} alt="Language Selector" />
                     <p className="lang">EN</p>
                     <select className="select ">
-                        <option ></option>
+                        <option></option>
                         <option className="english" value="English">English</option>
                     </select>
-                    
                 </div>
 
             </div>
