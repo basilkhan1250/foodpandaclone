@@ -277,7 +277,29 @@
     padding-left: 25px;
     padding-right: 15px;
     padding-top: 15px;
+    padding-bottom: 40px;
 }
 .add-text{
-    
+    font-size: 18px;
+    padding-top: 15px;
+}
+.add-btn{
+    padding: 17px;
+    font-size: 14px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #ee2b7f;
+    background-color: #ee2b7f;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.add-btn:hover{
+    padding: 19px;
+    font-size: 14px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #c71261;
+    background-color: #c71261;
+    cursor: pointer;
+    transition: 0.1s;
 }
