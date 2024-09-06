@@ -409,7 +409,7 @@
 .city:hover .city-text {
     opacity: 1;
     /* cursor: pointer; */
-    
+
     transform: scale(1.1);
     border-radius: 15px;
     padding: 10px;
@@ -418,20 +418,77 @@
     height: 190px;
     width: 260px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 
+.qr-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qr-heading {
+    padding-top: 40px;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.qr {
+    background-color: #e21b70;
+    height: 340px;
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-left: 34px;
+}
+
+.qr-inner-heading {
+    color: white;
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.qr-code {
+    width: 80px;
+}
+
+.qr-code-outer {
+    width: 80px;
+    border: 1px solid white;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+
+.qr-right-sec {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qr-para {
+    color: white;
+    width: 320px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
 
 
+.app-store {
+    margin-right: 20px;
+}
+.google-play {
+    margin-right: 20px;
+}
+.app-gallery {
+    margin-right: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.adds {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap
+}
