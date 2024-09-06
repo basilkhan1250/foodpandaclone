@@ -144,33 +144,30 @@
     padding-left: 65px;
     font-size: 32px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
-.cities-grid {
+/* 
+ .cities-grid {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around;  */
-    /* gap: 5px; */
     padding-left: 60px;
-    /* padding-right: 65px; */
-    gap: 50px;
-}
+    gap: 30px;
+} 
+
 
 .city {
-    display: flex ;
+    display: flex;
     flex-flow: row wrap;
-    flex-basis: 20%; 
-    margin-bottom: 20px; 
+    flex-basis: 22%;
     box-sizing: border-box;
 }
 
-
-.city-img{
-    width: 110%;
-    height: 90%; 
-    object-fit:fill;
+.city-img {
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
-}
+} */
 
 .inputGroup {
     background-color: white;
@@ -342,4 +339,47 @@
     background-color: #c71261;
     cursor: pointer;
     transition: 0.1s;
+}
+
+
+
+
+
+
+
+
+.cities {
+    display: flex;
+    justify-content: center;
+    /* Center the grid within the container */
+}
+
+.cities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping to the next row */
+    gap: 5px;
+    max-width: 1340px;
+    /* Set a max-width to control the grid's width */
+}
+
+.city {
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.city-img {
+    width: 310px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.city-img:hover {
+    cursor: pointer;
 }
