@@ -363,6 +363,12 @@
     /* Set a max-width to control the grid's width */
 }
 
+
+
+
+
+
+
 .city {
     flex-flow: row wrap;
     box-sizing: border-box;
@@ -370,16 +376,62 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    overflow: hidden;
 }
-
 
 .city-img {
     width: 310px;
     height: 230px;
     object-fit: cover;
     border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    transition: 0.2s;
 }
 
 .city-img:hover {
-    cursor: pointer;
+    /* cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+    height: 210px;
+    width: 500px;
+    transition: 0.4s; */
 }
+
+.city-text {
+    color: white;
+    position: absolute;
+    opacity: 0;
+}
+
+.city:hover .city-text {
+    opacity: 1;
+    /* cursor: pointer; */
+    
+    transform: scale(1.1);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 190px;
+    width: 260px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

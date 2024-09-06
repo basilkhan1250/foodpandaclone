@@ -163,7 +163,7 @@ const Cities = () => {
                     {Object.entries(cities).map(([ID, { name, img }]) => (
                         <div className="city" key={ID}>
                             <img className='city-img' src={img} alt={name} />
-                            {/* <p>{name}</p> */}
+                            <h2 className='city-text'>{name}</h2>
                         </div>
                     ))}
                 </div>

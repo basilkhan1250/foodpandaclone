@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Web from './components/Web.jsx';
 import New from './components/New.jsx'
 import Cities from './components/Cities.jsx';
+import QrSection from './components/QrSection.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Web></Web>
       <New></New>
       <Cities></Cities>
+      <QrSection></QrSection>
     </div>
   );
 }
