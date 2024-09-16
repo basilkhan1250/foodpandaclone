@@ -1,3 +1,10 @@
+
+.body {
+    overflow-x: hidden;
+}
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -23,6 +30,8 @@
     display: flex;
     align-items: center;
 }
+
+.navbar {}
 
 .navbar-logo {
     height: 30px;
@@ -211,8 +220,8 @@
     font-size: 14px;
     color: white;
     border-radius: 8px;
-    border: 1px solid #ee2b7f;
-    background-color: #ee2b7f;
+    border: 1px solid #c9296e;
+    background-color: #c9296e;
     transition: 0.1s;
 }
 
@@ -506,8 +515,55 @@
 }
 
 .mobile-app-device {
-    width: 650px;       /* Adjust the size as needed */
+    width: 650px;
+    /* Adjust the size as needed */
     padding-left: 39%;
 
 }
 
+.office-heading {
+    padding-left: 60px;
+    padding-top: 50px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.bussiness-card {
+    border-radius: 15px;
+    height: 190px;
+    width: 600px;
+    border: 0px solid black;
+    position: absolute;
+    top: 690%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.office-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.all-text {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: start;
+    padding: 120px 110px ;
+}
+
+.start-heading {
+    /* padding-top: 120px; */
+    /* padding-left: 90px; */
+    font-weight: 300;
+}
+.start-heading p {
+    opacity: 0.8;
+}
