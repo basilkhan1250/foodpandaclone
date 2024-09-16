@@ -390,14 +390,15 @@
 }
 
 .city-img:hover {
-    /* cursor: pointer;
+    /* cursor: pointer;            
     transform: scale(1.1);
     border-radius: 25px;
     padding: 10px;
     margin: 15px;
-    height: 210px;
-    width: 500px;
+    height: 280px;
+    width: 265px;
     transition: 0.4s; */
+    /* expand on hover */
 }
 
 .city-text {
@@ -419,6 +420,8 @@
     width: 260px;
     transition: 0.3s;
     cursor: pointer;
+    /* shade on hover  */
+
 }
 
 
@@ -480,9 +483,11 @@
 .app-store {
     margin-right: 20px;
 }
+
 .google-play {
     margin-right: 20px;
 }
+
 .app-gallery {
     margin-right: 20px;
 }
@@ -492,3 +497,17 @@
     display: flex;
     flex-wrap: wrap
 }
+
+.mobile {
+    position: relative;
+    /* top: 80%; */
+    bottom: 110%;
+    left: 10%;
+}
+
+.mobile-app-device {
+    width: 650px;       /* Adjust the size as needed */
+    padding-left: 39%;
+
+}
+
