@@ -1,4 +1,3 @@
-
 .body {
     overflow-x: hidden;
 }
@@ -552,11 +551,11 @@
 }
 
 .all-text {
-    display: flex;
+    display: block;
     justify-content: center;
     text-align: justify;
     align-items: start;
-    padding: 120px 110px ;
+    padding: 120px 90px 10px;    
 }
 
 .start-heading {
@@ -564,6 +563,53 @@
     /* padding-left: 90px; */
     font-weight: 300;
 }
+
 .start-heading p {
     opacity: 0.8;
+}
+
+
+.last-text {
+    padding-top: 100px;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.last-text h4 span {
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+
+
+.end h4 {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foot-text{
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.line{
+    display: flex;
 }
